@@ -65,7 +65,7 @@ public class Operator {
         var exampleValue1 = 7; // 111
         var exampleValue2 = 3; // 011
         // & bitwise AND
-        System.out.println(STR."AND: \{exampleValue1 & exampleValue2}"); // 3
+        System.out.println(STR."AND: " + (exampleValue1 & exampleValue2)); // 3
         // | bitwise OR
         System.out.println(STR."OR: \{exampleValue1 | exampleValue2}"); // 7
         // ^ bitwise XOR
