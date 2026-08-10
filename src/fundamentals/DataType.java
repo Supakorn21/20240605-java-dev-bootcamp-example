@@ -22,23 +22,26 @@ public class DataType {
     public static void main(String[] args) {
         // variables use camelCase
         byte exampleOfByte = 127;
-        short exampleOfShort = 100;
         int exampleOfInteger = 100;
-        long exampleOfLong = 100L;
+        long exampleOfLong = 100;
+        short exampleOfShort = 100;
+
 
         double exampleOfDouble = 25.00;
         float exampleOfFloat = 25.00f;
 
         char grade = 'D';
-        boolean isEnabled = true; // disable mean isEnabled = false
+        boolean isEnabled = true;
+        
+        System.out.println(STR."Byte: \{exampleOfByte}");
+        System.out.println(STR."Integer: \{exampleOfInteger}");
+        System.out.println(STR."Long: \{exampleOfLong}");
+        System.out.println(STR."Short: \{exampleOfShort}");
+        System.out.println(STR."Double: \{exampleOfDouble}");
+        System.out.println(STR."Float: \{exampleOfFloat}");
+        System.out.println(STR."Char: \{grade}");
+        System.out.println(STR."Boolean: \{isEnabled}");
 
-        System.out.println(STR."exampleOfByte: \{exampleOfByte}");
-        System.out.println(STR."exampleOfShort: \{exampleOfShort}");
-        System.out.println(STR."exampleOfInteger: \{exampleOfInteger}");
-        System.out.println(STR."exampleOfLong: \{exampleOfLong}");
-        System.out.println(STR."exampleOfDouble: \{exampleOfDouble}");
-        System.out.println(STR."exampleOfFloat: \{exampleOfFloat}");
-        System.out.println(STR."grade: \{grade}");
-        System.out.println(STR."isEnabled: \{isEnabled}");
+
     }
 }
